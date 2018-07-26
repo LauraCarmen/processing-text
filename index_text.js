@@ -3,15 +3,22 @@ let pisicamea = " Am gasit o pisica pe strada. Pisica era foarte frumoasa si agi
 
 let cuvinte = ["pisica", "frumoasa", "copaci"];
 
-pisicameaArray = pisicamea.split(" ");
+let pisicameaArray = pisicamea.split(" ");
 
-function (cuvinte, pisicameaArray) {
+function f (cuvinte, pisicameaArray) {
+    result = []
   for( i = 0; i < cuvinte.length; i++) {
-     count = 0;
+   count = 0;
+   result = [];
     for( z = 0; z < pisicameaArray.length; z++) {
       if (pisicameaArray[z] === cuvinte[i]) 
       count++;
     }
+    result[cuvinte[i]] = count;
   }
+
+  return result[cuvinte[i]];
 }
+
+console.log(cuvinte[i] + ' count is ' + count);
 
