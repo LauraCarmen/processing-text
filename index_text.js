@@ -25,3 +25,23 @@ console.log(f(cuvinte,pisicameaArray));
 let cacat = pisicamea.replace (/pisica|frumoasa|copaci/g, "magduta");
 
 console.log(cacat);
+
+function f3 (cuvinte, pisicamea) {
+  let result3 = []
+  for ( let i = 0; i < cuvinte.length; i++ ) { 
+
+  }
+  for ( let z = 0; z < pisicameaArray.length; z++) {
+        if (pisicamea[z] === cuvinte[i]) {
+        let n = pisicamea.indexOf(cuvinte[i]);
+      }
+    
+ }
+    result3[cuvinte[i]] = n;
+  
+
+  return result3;
+
+  }
+
+  console.log(f3(cuvinte,pisicamea));
