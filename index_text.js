@@ -6,7 +6,6 @@ let cuvinte = ["pisica", "frumoasa", "copaci"];
 let pisicameaArray = pisicamea.split(" ");
 
 function f (cuvinte, pisicameaArray) {
-    result = []
   for( i = 0; i < cuvinte.length; i++) {
    count = 0;
    result = [];
