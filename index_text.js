@@ -6,18 +6,18 @@ let cuvinte = ["pisica", "frumoasa", "copaci"];
 let pisicameaArray = pisicamea.split(" ");
 
 function f (cuvinte, pisicameaArray) {
-  for( i = 0; i < cuvinte.length; i++) {
-   count = 0;
-   result = [];
-    for( z = 0; z < pisicameaArray.length; z++) {
+  let result = []
+  for( let i = 0; i < cuvinte.length; i++) {
+   let count = 0;
+    for( let z = 0; z < pisicameaArray.length; z++) {
       if (pisicameaArray[z] === cuvinte[i]) 
       count++;
     }
     result[cuvinte[i]] = count;
   }
 
-  return result[cuvinte[i]];
+  return result;
 }
 
-console.log(cuvinte[i] + ' count is ' + count);
+console.log(result);
 
