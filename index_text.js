@@ -19,5 +19,9 @@ function f (cuvinte, pisicameaArray) {
   return result;
 }
 
-console.log(result);
+console.log(f(cuvinte,pisicameaArray));
 
+
+let cacat = pisicamea.replace (/pisica|frumoasa|copaci/g, "magduta");
+
+console.log(cacat);
